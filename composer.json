@@ -1,0 +1,26 @@
+{
+    "name": "pranavec/contact",
+    "description": "This is a contact package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pranav Patel",
+            "email": "pranav.ec@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pranavec\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pranavec\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
